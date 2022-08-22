@@ -39,7 +39,33 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const INIT_CODE_HASH: string = '0xe18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303'
+
+export const INIT_CODE_HASH: { [chainId in ChainId]: string } = {
+  [ChainId.MAINNET]: '',
+  [ChainId.ROPSTEN]: '',
+  [ChainId.RINKEBY]: '',
+  [ChainId.GÖRLI]: '',
+  [ChainId.KOVAN]: '',
+  [ChainId.FANTOM]: '',
+  [ChainId.FANTOM_TESTNET]: '',
+  [ChainId.MATIC]: '',
+  [ChainId.MATIC_TESTNET]: '',
+  [ChainId.XDAI]: '',
+  [ChainId.BSC]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
+  [ChainId.BSC_TESTNET]: '',
+  [ChainId.ARBITRUM]: '',
+  [ChainId.MOONBASE]: '',
+  [ChainId.AVALANCHE]: '0x0bbca9af0511ad1a1da383135cf3a8d2ac620e549ef9f6ae3a4c33c2fed0af91',
+  [ChainId.FUJI]: '',
+  [ChainId.HECO]: '',
+  [ChainId.HECO_TESTNET]: '',
+  [ChainId.HARMONY]: '',
+  [ChainId.HARMONY_TESTNET]: '',
+  [ChainId.OKEX]: '',
+  [ChainId.OKEX_TESTNET]: ''
+
+
+}
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
