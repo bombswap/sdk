@@ -33,8 +33,6 @@ export class Currency {
 
   public static readonly OKT: Currency = new Currency(18, 'OKT', 'OKExChain')
 
-  public static readonly PEGC: Currency = new Currency(18, 'PEGC', 'PEGCHAIN')
-
   public static readonly BOMB: Currency = new Currency(18, 'BOMB', 'BOMB Token')
 
 
@@ -60,7 +58,6 @@ export class Currency {
     [ChainId.HARMONY]: Currency.ONE,
     [ChainId.HARMONY_TESTNET]: Currency.ONE,
     [ChainId.OKEX]: Currency.OKT,
-    [ChainId.PEGC]: Currency.PEGC,
     [ChainId.BOMB]: Currency.BOMB,
     [ChainId.OKEX_TESTNET]: Currency.OKT
   }

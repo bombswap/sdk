@@ -26,7 +26,6 @@ export enum ChainId {
   HARMONY_TESTNET = 1666700000,
   OKEX = 66,
   OKEX_TESTNET = 65,
-  PEGC = 2325,
   BOMB = 23254
 }
 
@@ -65,7 +64,6 @@ export const INIT_CODE_HASH: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
   [ChainId.OKEX]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
   [ChainId.OKEX_TESTNET]: '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5',
-  [ChainId.PEGC]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
   [ChainId.BOMB]: '0xa206edb26cf734004c9be5a66304bd14c2f72b2ec8c2f5a3738ea103251a34c1',
 }
 
@@ -92,7 +90,6 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
   [ChainId.OKEX]: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
   [ChainId.OKEX_TESTNET]: '0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73',
-  [ChainId.PEGC]: '0x522348779DCb2911539e76A1042aA922F9C47Ee3',
   [ChainId.BOMB]: '0x522348779DCb2911539e76A1042aA922F9C47Ee3',
 }
 
@@ -119,7 +116,6 @@ export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
   [ChainId.OKEX]: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
   [ChainId.OKEX_TESTNET]: '0x10ED43C718714eb63d5aA57B78B54704E256024E',
-  [ChainId.PEGC]: '0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
   [ChainId.BOMB]: '0x531780FAcE85306877D7e1F05d713D1B50a37F7A',
 }
 
@@ -146,7 +142,6 @@ export const SUSHI_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
   [ChainId.OKEX_TESTNET]: '',
-  [ChainId.PEGC]: '0x1083926054069AaD75d7238E9B809b0eF9d94e5B',
   [ChainId.BOMB]: '',
 }
 
@@ -172,7 +167,6 @@ export const MASTERCHEF_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.PEGC]: '0x2Ec1Be1dceA5c9fB040419DEDA55B1aC39e9387f',
   [ChainId.OKEX_TESTNET]: '',
   [ChainId.BOMB]: ''
 }
@@ -199,7 +193,6 @@ export const BAR_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.PEGC]: '',
   [ChainId.BOMB]: '',
   [ChainId.OKEX_TESTNET]: ''
 }
@@ -227,7 +220,6 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
   [ChainId.OKEX]: '',
-  [ChainId.PEGC]: '',
   [ChainId.OKEX_TESTNET]: ''
 }
 
@@ -244,7 +236,6 @@ export const TIMELOCK_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.XDAI]: '',
   [ChainId.BSC]: '',
   [ChainId.BSC_TESTNET]: '',
-  [ChainId.PEGC]: '',
   [ChainId.BOMB]: '',
   [ChainId.ARBITRUM]: '',
   [ChainId.MOONBASE]: '',
