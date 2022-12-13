@@ -107,7 +107,13 @@ export const WETH = {
   [ChainId.XDAI]: new Token(ChainId.XDAI, '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d', 18, 'WXDAI', 'Wrapped xDai'),
   [ChainId.BSC]: new Token(ChainId.BSC, '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 18, 'WBNB', 'Wrapped BNB'),
   [ChainId.BOMB]: new Token(ChainId.BOMB, '0x87460B9F21763aee800b94362062a06dA1B5f6Ee', 18, 'WBOMB', 'Wrapped BOMB'),
-  [ChainId.BOMB_TESTNET]: new Token(ChainId.BOMB_TESTNET, '0xc0B8485449248c054D5e8E98c1f2cc7B4031BD4c', 18, 'WBOMB', 'Wrapped BOMB'),
+  [ChainId.BOMB_TESTNET]: new Token(
+    ChainId.BOMB_TESTNET,
+    '0xc0B8485449248c054D5e8E98c1f2cc7B4031BD4c',
+    18,
+    'WBOMB',
+    'Wrapped BOMB'
+  ),
   [ChainId.BSC_TESTNET]: new Token(
     ChainId.BSC_TESTNET,
     '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',

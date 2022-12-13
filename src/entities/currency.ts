@@ -35,8 +35,6 @@ export class Currency {
 
   public static readonly BOMB: Currency = new Currency(18, 'BOMB', 'BOMB Token')
 
-
-
   public static readonly NATIVE = {
     [ChainId.MAINNET]: Currency.ETHER,
     [ChainId.ROPSTEN]: Currency.ETHER,
