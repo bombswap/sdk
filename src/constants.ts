@@ -221,7 +221,7 @@ export const MAKER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.AVALANCHE]: '',
   [ChainId.FUJI]: '',
   [ChainId.HECO]: '',
-  [ChainId.BOMB]: '',
+  [ChainId.BOMB]: '0xfe3d7f3537F8feDA66BC4912f931a399C083103A',
   [ChainId.HECO_TESTNET]: '',
   [ChainId.HARMONY]: '',
   [ChainId.HARMONY_TESTNET]: '',
