@@ -1,14 +1,14 @@
 {
-  "name": "@pegswap/sdk",
+  "name": "@bombswap/sdk",
   "license": "MIT",
-  "version": "2.1.0",
-  "description": "🛠 An SDK for building applications on top of Sushiswap.",
+  "version": "1.0.0",
+  "description": "🛠 An SDK for building applications on top of BOMBSWAP.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sushiswap/sushiswap-sdk",
+  "repository": "https://github.com/bombswap/sdk",
   "keywords": [
     "uniswap",
     "sushiswap",
